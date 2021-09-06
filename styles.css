@@ -1,0 +1,35 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+body{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+div{
+    position: absolute;
+    top: 0;
+    
+    height: 10px;
+
+}
+.loading-parent{
+    width: 100vw;
+    background-color: darkgrey;
+}
+
+.loading-child{
+    width: 14%;
+    background-color: darkred;
+}
+
+button{
+   
+    width: 400px;
+    height: 100px;
+}
+
